@@ -1,6 +1,5 @@
 # Table of Contents
 - [General](#general)
-  * [Local Components](#local-components)
   * [Single File Component Nature of Vue](#single-file-component-nature-of-vue)
     + [Pure JavaScript file vs .Vue file](#pure-javascript-file-vs-vue-file)
     + [Why use .vue file instead of .js](#why-use-vue-file-instead-of-js)
