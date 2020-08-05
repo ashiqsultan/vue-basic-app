@@ -1,4 +1,4 @@
-- [Notes](#notes)
+# Table of Contents
 - [General](#general)
   * [Local Components](#local-components)
   * [Single File Component Nature of Vue](#single-file-component-nature-of-vue)
@@ -24,15 +24,9 @@
   * [Passing a Prop](#passing-a-prop)
 - [VueX](#vuex)
   * [General](#general-1)
-# Notes
 
 # General
-
-## Local Components
-
-Any component created using **Vue.component('elementName', {options})** is globally registered. You don't need to
-assign it to a variable or pass it around to reuse it in your templates.
-
+This is a basic Vue app containg all important features created for learning purpose. Run the app in dev mode and look into the MyComponent.vue file.
 ## Single File Component Nature of Vue
 
 ### Pure JavaScript file vs .Vue file
@@ -363,7 +357,3 @@ export default {
   mutations
 };
 ```
-
-Search tags
-
-Vuejs Vue.js Vue js
