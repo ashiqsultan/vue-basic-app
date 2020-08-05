@@ -1,8 +1,29 @@
-# Vue Basic App
-This app is created for learning purpose
-- Run the app in dev mode
-- MyComponent.vue file inside the Components has all the various features of Vue implemented
-
+- [Notes](#notes)
+- [General](#general)
+  * [Local Components](#local-components)
+  * [Single File Component Nature of Vue](#single-file-component-nature-of-vue)
+    + [Pure JavaScript file vs .Vue file](#pure-javascript-file-vs-vue-file)
+    + [Why use .vue file instead of .js](#why-use-vue-file-instead-of-js)
+  * [Vue Component Properties](#vue-component-properties)
+- [Template](#template)
+  * [Interpolation {{ }}](#interpolation------)
+  * [Directives v-directive](#directives-v-directive)
+    + [v-bind](#v-bind)
+    + [v-model](#v-model)
+  * [Events](#events)
+    + [v-on](#v-on)
+- [Methods](#methods)
+  * [Access data from Method](#access-data-from-method)
+- [Watch Component Property](#watch-component-property)
+- [Props](#props)
+  * [Prop Types](#prop-types)
+  * [More than one Prop type:](#more-than-one-prop-type-)
+  * [Make a Prop Required and Default Value](#make-a-prop-required-and-default-value)
+  * [Prop Validator](#prop-validator)
+    + [Valid Prop types](#valid-prop-types)
+  * [Passing a Prop](#passing-a-prop)
+- [VueX](#vuex)
+  * [General](#general-1)
 # Notes
 
 # General
