@@ -356,3 +356,9 @@ export default {
   mutations
 };
 ```
+# Other Tips
+## Vue Global Prototype variables 
+```
+Vueprototype.$yourVariableName = yourValue
+```
+You can now access $yourVariableName anywhere from your app. This can be used for global variables
