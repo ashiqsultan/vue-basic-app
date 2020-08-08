@@ -359,6 +359,19 @@ export default {
 # Other Tips
 ## Vue Global Prototype variables 
 ```
-Vueprototype.$yourVariableName = yourValue
+Vue.prototype.$yourVariableName = yourValue
 ```
 You can now access $yourVariableName anywhere from your app. This can be used for global variables
+
+### state
+It contains the data
+### getters
+- It's used to get a state data.
+- Its like a middle man which we use to get the data stored in the state.
+- Using getters we can modify how we want to view the state data without changing the actual data
+### mutations
+- They are used to modify the state data
+- In the components we will run a mutation functions ny running **commit**
+- Using `{strict:true}` in the Store options will restrict modification of state without using mutations
+### actions
+- Actions are like a bridge between components and mutations
