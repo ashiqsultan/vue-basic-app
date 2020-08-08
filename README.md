@@ -375,3 +375,4 @@ It contains the data
 - Using `{strict:true}` in the Store options will restrict modification of state without using mutations
 ### actions
 - Actions are like a bridge between components and mutations
+- Actions are dispatched like how mutations are commited
